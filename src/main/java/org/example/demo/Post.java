@@ -9,11 +9,11 @@ public class Post {
         this.postText = postText;
     }
 
-    public int getPostId() { // ✅ Required for ${post.postId}
+    public int getPostId() { 
         return postId;
     }
 
-    public String getPostText() { // ✅ Required for ${post.postText}
+    public String getPostText() { 
         return postText;
     }
 }
